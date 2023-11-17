@@ -29,7 +29,7 @@ const NavBar = () => {
         "absolute",
         !isMenuopen
           ? " z-[300] absolute w-[69px] p-10 left-4 h-[47px]"
-          : " items-center justify-around flex flex-col z-[300] fixed w-screen h-screen bg-[#2B2B29]",
+          : " items-center justify-around flex flex-col z-[300] fixed w-screen h-screen bg-gradient-to-r from-cyan-900 to-blue-900",
       ]}
     >
       <Menu

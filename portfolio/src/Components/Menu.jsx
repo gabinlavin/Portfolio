@@ -7,7 +7,7 @@ const Menu = ({ isMenuOpen, handleMenu }) => {
       className="w-[69px] left-[20px] h-[47px] cursor-pointer"
     >
       <div
-        className={`w-[69px] h-[9px] left-0 top-[19px] absolute bg-neutral-500
+        className={`w-[69px] h-[9px] left-0 top-[19px] absolute bg-gradient-to-r from-slate-900 to-blue-950 
         ${isMenuOpen ? "transition-transform rotate-45" : ""}
         `}
       />
